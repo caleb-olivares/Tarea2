@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="CSS/producto_style.css">
+</head>
+<body>
+    <p>Registro de Producto</p>
+    
+    <table>
+        <thead>
+        <tr>
+            <td style="text-align: right;">
+                Código: 
+            </td>
+            <td>
+                <input type="text" id="Codigo" name="nombre"><br>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">
+                Descripción:
+            </td>
+            <td>
+                <input type="text" id="Descripcion" name="nombre"><br>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">
+                Código de barras:
+            </td>
+            <td>
+                <input type="text" id="Codigo de barras" name="nombre"><br>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">
+                Precio unitario:
+            </td>
+            <td>
+                <input type="text" id="Precio unitario" name="nombre"><br>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">
+                Stock:
+            </td>
+            <td>
+                <input type="text" id="Stock" name="nombre"><br>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">
+                Proveedor:
+            </td>
+            <td>
+                <input type="text" id="Proveedor" name="nombre"><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p></p>
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">
+                Estado:
+            </td>
+            <td>
+                <input type="checkbox" id="check" name="check">Activo<br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p></p>
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">
+                Categoría
+            </td>
+            <td>
+                <select id="menu">
+                    <option value="1">Categoría 1</option>
+                    <option value="2">Categoría 2</option>
+                    <option value="3">Categoría 3</option>
+                    <option value="4">Categoría 4</option>
+                </select><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p></p>
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p></p>
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+        </thead>
+    </table>
+
+    <table style="width: 100%;">
+        <tr>
+            <td style="text-align: right;">
+                <form action="mensaje.html" method="post">
+                    <input type="submit" id="btn" name="btn" value="Guardar">
+                </form>
+            </td>
+            <td style="text-align: center;">
+                <form action="index.html" method="post">
+                    <button>Cancelar</button>
+                </form>
+            </td>
+        </tr>
+    </table>
+
+    <!--
+    <form action="mensaje.html" method="post">
+        <h1>Registro de producto</h1>
+        Código:  <input type="text" id="Codigo" name="nombre"><br>
+        Descripción:  <input type="text" id="Descripcion" name="nombre"><br>
+        Código de barras:  <input type="text" id="Codigo de barras" name="nombre"><br>
+        Precio unitario:  <input type="text" id="Precio unitario" name="nombre"><br>
+        Stock:  <input type="text" id="Stock" name="nombre"><br>
+        Proveedor:  <input type="text" id="Proveedor" name="nombre"><br>
+        Estado:  <input type="checkbox" id="check" name="check">Activo<br>
+        <select id="menu">
+            <option value="1">Categoría 1</option>
+            <option value="2">Categoría 2</option>
+            <option value="3">Categoría 3</option>
+            <option value="4">Categoría 4</option>
+        </select><br>
+
+        <input type="submit" id="btn" name="btn" value="Guardar">
+    </form>
+    <form action="index.html" method="post">
+        <button>Cancelar</button>
+    </form>
+    -->
+</body>
+</html>
